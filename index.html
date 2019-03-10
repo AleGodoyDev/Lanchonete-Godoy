@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Lanchonete</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lanchonete.css" />
+
+
+</head>
+
+<body>
+    <h1>Carrinho de compras</h1>
+
+    <div class="tabela-preços">
+
+        <table border 1>
+
+            <tr>
+                <th>Produto</th>
+                <th>Valor </th>
+            </tr>
+
+            <tr>
+                <td>Refrigerante</td>
+                <td>
+                    R$
+                    <span id="refrigerantePreco">7.00</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Coxinha</td>
+                <td>
+                    R$
+                    <span id="coxinhaPreco">5.32</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Esfiha</td>
+                <td>
+                    R$
+                    <span id="esfihaPreco">5.00</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Cachorro Quente</td>
+                <td>
+                    R$
+                    <span id="cachorroQuentePreco">8.00</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Quibe</td>
+                <td>
+                    R$
+                    <span id="quibe">7.00</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Suco</td>
+                <td>
+                    R$
+                    <span id="suco">12.00</span>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="tabela-pedidos">
+        <table border 1>
+
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade </th>
+            </tr>
+
+            <tr>
+                <td>Refrigerante</td>
+                <td>
+                    <input type="number" min="0" value="0" id="refrigeranteQuantidade">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Coxinha</td>
+                <td>
+                    <input type="number" min="0" value="0" id="coxinhaQuantidade">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Esfiha</td>
+                <td>
+                    <input type="number" min="0" value="0" id="esfihaQuantidade">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Cachorro Quente</td>
+                <td>
+                    <input type="number" min="0" value="0" id="cachorroQuenteQuantidade">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Quibe</td>
+                <td>
+                    <input type="number" min="0" value="0" id="quibe">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Suco</td>
+                <td>
+                    <input type="number" min="0" value="0" id="suco">
+                </td>
+            </tr>
+
+
+        </table>
+
+        <div class="button">
+            <button id="button">Calcular</button>
+            </br>
+        </div>
+
+        <tr>
+            <td>Valor total do pedido: R$
+                <span id="resultado"></span>
+            </td>
+        </tr>
+
+    </div>
+    <script src="js/lanchonete.js"></script>
+</body>
+
+</html>
